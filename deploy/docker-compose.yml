@@ -1,0 +1,5 @@
+howareyoubot:
+  build: .
+  ports:
+    - 8080:8080
+  command: /usr/local/bin/run-how-are-you-bot.sh
